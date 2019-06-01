@@ -257,7 +257,7 @@ a {
 
 
   }
-  .card::before {
+/*   .card::before {
     content: '';
     position: absolute;
     width: 30rem;
@@ -269,12 +269,12 @@ a {
   }
 .card:hover::before {
   opacity: 1;
-}
+} */
 .card_text::after {
   content: '';
   position: absolute;
-  width: 30rem;
-  height: 30rem;
+  width: 40rem;
+  height: 40rem;
   background-color: transparent;
   bottom: 10rem;
 }
